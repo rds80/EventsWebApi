@@ -16,7 +16,7 @@ namespace IRCubedLLC.WebApi.Controllers
             return new HttpResponseMessage()
             {
                 Content = new StringContent(json, Encoding.UTF8, "application/json"),
-                StatusCode = HttpStatusCode.Accepted
+                StatusCode = HttpStatusCode.OK
             };
         }
     }
